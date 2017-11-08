@@ -1,0 +1,71 @@
+2017-11-08 17:05:16.071  INFO 21753 --- [o-23006-exec-45] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@1c23f5c0: startup date [Wed Nov 08 17:05:16 CST 2017]; root of context hierarchy
+2017-11-08 17:05:18.540  INFO 21753 --- [o-23006-exec-45] f.a.AutowiredAnnotationBeanPostProcessor : JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-11-08 17:05:19.037  INFO 21753 --- [o-23006-exec-45] trationDelegate$BeanPostProcessorChecker : Bean 'configurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$a68dedc] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-11-08 17:05:21.674  INFO 21753 --- [o-23006-exec-45] o.s.boot.SpringApplication               : The following profiles are active: dev
+2017-11-08 17:05:21.680  INFO 21753 --- [o-23006-exec-45] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@285755f6: startup date [Wed Nov 08 17:05:21 CST 2017]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@1c23f5c0
+2017-11-08 17:05:21.711  INFO 21753 --- [o-23006-exec-45] f.a.AutowiredAnnotationBeanPostProcessor : JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-11-08 17:05:21.831  INFO 21753 --- [o-23006-exec-45] o.s.boot.SpringApplication               : Started application in 8.946 seconds (JVM running for 91548.24)
+2017-11-08 17:05:21.831  INFO 21753 --- [o-23006-exec-45] s.c.a.AnnotationConfigApplicationContext : Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@285755f6: startup date [Wed Nov 08 17:05:21 CST 2017]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@1c23f5c0
+2017-11-08 17:05:26.616  INFO 21753 --- [o-23006-exec-44] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@357d5e46: startup date [Wed Nov 08 17:05:26 CST 2017]; root of context hierarchy
+2017-11-08 17:05:26.713  INFO 21753 --- [o-23006-exec-44] f.a.AutowiredAnnotationBeanPostProcessor : JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-11-08 17:05:26.904  INFO 21753 --- [o-23006-exec-44] o.s.c.c.s.e.NativeEnvironmentRepository  : Adding property source: file:/data/tomcat_3006/temp/config-repo-8443026401158727742/gateway-service/gateway-service-dev.yml
+2017-11-08 17:05:26.905  INFO 21753 --- [o-23006-exec-44] o.s.c.c.s.e.NativeEnvironmentRepository  : Adding property source: file:/data/tomcat_3006/temp/config-repo-8443026401158727742/application-test.yml
+2017-11-08 17:05:26.905  INFO 21753 --- [o-23006-exec-44] s.c.a.AnnotationConfigApplicationContext : Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@357d5e46: startup date [Wed Nov 08 17:05:26 CST 2017]; root of context hierarchy
+2017-11-08 17:05:33.166  INFO 21753 --- [o-23006-exec-73] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@420efaf4: startup date [Wed Nov 08 17:05:33 CST 2017]; root of context hierarchy
+2017-11-08 17:05:33.235  INFO 21753 --- [o-23006-exec-73] f.a.AutowiredAnnotationBeanPostProcessor : JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-11-08 17:05:33.295  INFO 21753 --- [o-23006-exec-73] o.s.c.c.s.e.NativeEnvironmentRepository  : Adding property source: file:/data/tomcat_3006/temp/config-repo-8443026401158727742/cm-rest-service/cm-rest-service-dev.yml
+2017-11-08 17:05:33.296  INFO 21753 --- [o-23006-exec-73] o.s.c.c.s.e.NativeEnvironmentRepository  : Adding property source: file:/data/tomcat_3006/temp/config-repo-8443026401158727742/application-test.yml
+2017-11-08 17:05:33.296  INFO 21753 --- [o-23006-exec-73] s.c.a.AnnotationConfigApplicationContext : Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@420efaf4: startup date [Wed Nov 08 17:05:33 CST 2017]; root of context hierarchy
+2017-11-08 17:05:36.524  INFO 21753 --- [o-23006-exec-66] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@ce514eb: startup date [Wed Nov 08 17:05:36 CST 2017]; root of context hierarchy
+2017-11-08 17:05:36.614  INFO 21753 --- [o-23006-exec-66] f.a.AutowiredAnnotationBeanPostProcessor : JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-11-08 17:05:36.751  INFO 21753 --- [o-23006-exec-66] o.s.c.c.s.e.NativeEnvironmentRepository  : Adding property source: file:/data/tomcat_3006/temp/config-repo-8443026401158727742/user-service/user-service-dev.yml
+2017-11-08 17:05:36.761  INFO 21753 --- [o-23006-exec-66] o.s.c.c.s.e.NativeEnvironmentRepository  : Adding property source: file:/data/tomcat_3006/temp/config-repo-8443026401158727742/application-test.yml
+2017-11-08 17:05:36.761  INFO 21753 --- [o-23006-exec-66] s.c.a.AnnotationConfigApplicationContext : Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@ce514eb: startup date [Wed Nov 08 17:05:36 CST 2017]; root of context hierarchy
+2017-11-08 17:05:37.225  INFO 21753 --- [o-23006-exec-34] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@64a2c233: startup date [Wed Nov 08 17:05:37 CST 2017]; root of context hierarchy
+2017-11-08 17:05:37.284  INFO 21753 --- [o-23006-exec-34] f.a.AutowiredAnnotationBeanPostProcessor : JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-11-08 17:05:37.425  INFO 21753 --- [o-23006-exec-34] o.s.c.c.s.e.NativeEnvironmentRepository  : Adding property source: file:/data/tomcat_3006/temp/config-repo-8443026401158727742/auth-service/auth-service-dev.yml
+2017-11-08 17:05:37.425  INFO 21753 --- [o-23006-exec-34] o.s.c.c.s.e.NativeEnvironmentRepository  : Adding property source: file:/data/tomcat_3006/temp/config-repo-8443026401158727742/application-test.yml
+2017-11-08 17:05:37.425  INFO 21753 --- [o-23006-exec-34] s.c.a.AnnotationConfigApplicationContext : Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@64a2c233: startup date [Wed Nov 08 17:05:37 CST 2017]; root of context hierarchy
+2017-11-08 17:05:37.962  INFO 21753 --- [o-23006-exec-75] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@93e3290: startup date [Wed Nov 08 17:05:37 CST 2017]; root of context hierarchy
+2017-11-08 17:05:38.033  INFO 21753 --- [o-23006-exec-75] f.a.AutowiredAnnotationBeanPostProcessor : JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-11-08 17:05:38.140  INFO 21753 --- [o-23006-exec-75] o.s.c.c.s.e.NativeEnvironmentRepository  : Adding property source: file:/data/tomcat_3006/temp/config-repo-8443026401158727742/mobile-service/mobile-service-dev.yml
+2017-11-08 17:05:38.140  INFO 21753 --- [o-23006-exec-75] o.s.c.c.s.e.NativeEnvironmentRepository  : Adding property source: file:/data/tomcat_3006/temp/config-repo-8443026401158727742/application-test.yml
+2017-11-08 17:05:38.140  INFO 21753 --- [o-23006-exec-75] s.c.a.AnnotationConfigApplicationContext : Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@93e3290: startup date [Wed Nov 08 17:05:37 CST 2017]; root of context hierarchy
+2017-11-08 17:05:38.655  INFO 21753 --- [o-23006-exec-33] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@29d41d42: startup date [Wed Nov 08 17:05:38 CST 2017]; root of context hierarchy
+2017-11-08 17:05:38.715  INFO 21753 --- [o-23006-exec-33] f.a.AutowiredAnnotationBeanPostProcessor : JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-11-08 17:05:38.827  INFO 21753 --- [o-23006-exec-33] o.s.c.c.s.e.NativeEnvironmentRepository  : Adding property source: file:/data/tomcat_3006/temp/config-repo-8443026401158727742/customer-rest/customer-rest-dev.yml
+2017-11-08 17:05:38.831  INFO 21753 --- [o-23006-exec-33] o.s.c.c.s.e.NativeEnvironmentRepository  : Adding property source: file:/data/tomcat_3006/temp/config-repo-8443026401158727742/application-test.yml
+2017-11-08 17:05:38.831  INFO 21753 --- [o-23006-exec-33] s.c.a.AnnotationConfigApplicationContext : Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@29d41d42: startup date [Wed Nov 08 17:05:38 CST 2017]; root of context hierarchy
+2017-11-08 17:05:40.448  INFO 21753 --- [o-23006-exec-45] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2017-11-08 17:05:40.449  INFO 21753 --- [o-23006-exec-45] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2017-11-08 17:05:40.479  INFO 21753 --- [o-23006-exec-45] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2017-11-08 17:05:40.490  INFO 21753 --- [o-23006-exec-45] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_CONFIG-SERVICE/192.168.98.183:23006 - deregister  status: 200
+2017-11-08 17:05:40.495  INFO 21753 --- [o-23006-exec-45] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2017-11-08 17:05:40.517  INFO 21753 --- [o-23006-exec-45] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region eureka-server-region
+2017-11-08 17:05:40.684  INFO 21753 --- [o-23006-exec-45] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2017-11-08 17:05:40.684  INFO 21753 --- [o-23006-exec-45] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2017-11-08 17:05:40.684  INFO 21753 --- [o-23006-exec-45] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2017-11-08 17:05:40.684  INFO 21753 --- [o-23006-exec-45] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2017-11-08 17:05:41.112  INFO 21753 --- [o-23006-exec-45] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via DNS: txt.eureka-server-region.t3.dcfservice.com
+2017-11-08 17:05:41.114  INFO 21753 --- [o-23006-exec-45] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2017-11-08 17:05:41.114  INFO 21753 --- [o-23006-exec-45] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2017-11-08 17:05:41.114  INFO 21753 --- [o-23006-exec-45] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2017-11-08 17:05:41.114  INFO 21753 --- [o-23006-exec-45] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2017-11-08 17:05:41.114  INFO 21753 --- [o-23006-exec-45] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2017-11-08 17:05:41.114  INFO 21753 --- [o-23006-exec-45] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2017-11-08 17:05:41.114  INFO 21753 --- [o-23006-exec-45] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2017-11-08 17:05:41.148  INFO 21753 --- [o-23006-exec-45] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2017-11-08 17:05:41.148  INFO 21753 --- [o-23006-exec-45] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2017-11-08 17:05:41.149  INFO 21753 --- [o-23006-exec-45] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2017-11-08 17:05:41.150  INFO 21753 --- [o-23006-exec-45] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1510131941150 with initial instances count: 18
+2017-11-08 17:05:41.154  INFO 21753 --- [o-23006-exec-45] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application config-service with eureka with status DOWN
+2017-11-08 17:05:41.154  INFO 21753 --- [o-23006-exec-45] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application config-service with eureka with status UP
+2017-11-08 17:05:41.154  WARN 21753 --- [o-23006-exec-45] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1510131941154, current=UP, previous=DOWN]
+2017-11-08 17:05:41.154  INFO 21753 --- [o-23006-exec-45] o.s.cloud.bus.event.RefreshListener      : Received remote refresh request. Keys refreshed []
+2017-11-08 17:05:41.156  INFO 21753 --- [nfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_CONFIG-SERVICE/192.168.98.183:23006: registering service...
+2017-11-08 17:05:41.164  INFO 21753 --- [nfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_CONFIG-SERVICE/192.168.98.183:23006 - registration status: 204
+2017-11-08 17:05:47.418  INFO 21753 --- [o-23006-exec-44] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@6340b2c5: startup date [Wed Nov 08 17:05:47 CST 2017]; root of context hierarchy
+2017-11-08 17:05:47.524  INFO 21753 --- [o-23006-exec-44] f.a.AutowiredAnnotationBeanPostProcessor : JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-11-08 17:05:47.687  INFO 21753 --- [o-23006-exec-44] o.s.c.c.s.e.NativeEnvironmentRepository  : Adding property source: file:/data/tomcat_3006/temp/config-repo-8443026401158727742/message-service/message-service-dev.yml
+2017-11-08 17:05:47.687  INFO 21753 --- [o-23006-exec-44] o.s.c.c.s.e.NativeEnvironmentRepository  : Adding property source: file:/data/tomcat_3006/temp/config-repo-8443026401158727742/application-test.yml
+2017-11-08 17:05:47.688  INFO 21753 --- [o-23006-exec-44] s.c.a.AnnotationConfigApplicationContext : Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@6340b2c5: startup date [Wed Nov 08 17:05:47 CST 2017]; root of context hierarchy

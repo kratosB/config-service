@@ -1,0 +1,27 @@
+server:
+  port: 23006
+spring:
+  application:
+    name: config-service
+  cloud:
+    config:
+      server:
+        git:
+          uri: http://gitlab.dcfservice.com/cm/config-repo.git
+          searchPaths: '{application}' # 查询哪几个目录
+          username: devops.bot
+          password: dcf@2015
+          default-label: dev
+  rabbitmq:
+    host: ${ENV}.rabbitmq.dcfservice.com
+    port: 5672
+    username: rabbit
+    password: rabbit
+management:
+  security:
+    enabled: false
+eureka:
+  instance:
+    prefer-ip-address: true
+    instance-id: ${spring.cloud.client.ipAddress}:${server.port}
+    status-page-url: http://${spring.cloud.client.ipAddress}:${server.port}/info

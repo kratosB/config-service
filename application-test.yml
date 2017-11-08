@@ -1,0 +1,112 @@
+env: ${ENV}
+spring:
+  rabbitmq:
+    host: ${ENV}.rabbitmq.service.com
+    port: 5672
+    username: rabbit
+    password: rabbit
+  http:
+    encoding:
+      charset: UTF-8
+      force: true
+      force-request: true
+      force-response: true
+      enabled: true
+    multipart:
+      enabled: true
+      max-file-size: 10Mb
+      max-request-size: 100Mb
+  cloud:
+    stream:
+      default:
+        contentType: application/json
+    inetutils:
+      ignored-interfaces: eth1
+    bus:
+      trace:
+        enabled: true
+    config:
+      fail-fast: true
+  sleuth:
+    sampler:
+      percentage: 1.0
+    web:
+      skipPattern: "/api-docs.*|/autoconfig|/configprops|/dump|/health|/info|/metrics.*|/mappings|/trace|/swagger.*|.*\\.png|.*\\.css|.*\\.js|.*\\.html|/favicon.ico|/hystrix.stream|/api/health"
+  zipkin:
+    service:
+      name: ${ENV}-${spring.application.name}
+  datasource:
+    druid:
+      driver-class-name: com.mysql.jdbc.Driver
+      initial-size: 1
+      max-active: 30
+      min-idle: 3
+      max-wait: 60000
+      time-between-eviction-runs-millis: 60000
+      min-evictable-idle-time-millis: 300000
+      validation-query: SELECT 'x'
+      test-while-idle: true
+      test-on-borrow: false
+      test-on-return: false
+      pool-prepared-statements: false
+      filters: stat, wall
+      db-type: mysql
+  boot:
+    admin:
+      url: http://${ENV}.springdashboard.service.com
+      client:
+        service-url: http://${spring.cloud.client.ipAddress}:${server.port}
+
+eureka:
+  instance:
+    prefer-ip-address: true
+    instance-id: ${spring.cloud.client.ipAddress}:${server.port}
+    status-page-url: http://${spring.cloud.client.ipAddress}:${server.port}/info
+
+hystrix:
+  command:
+    default:
+      execution:
+        isolation:
+          thread:
+            timeoutInMilliseconds: 10000
+      metrics:
+        rollingStats:
+          timeInMilliseconds: 60000
+          numBuckets: 10
+        rollingPercentile:
+          timeInMilliseconds: 60000
+          numBuckets: 10
+          bucketSize: 100
+      circuitBreaker:
+        requestVolumeThreshold: 10
+        sleepWindowInMilliseconds: 5000
+        errorThresholdPercentage: 20
+
+ribbon:
+  MaxAutoRetriesNextServer: 2
+  MaxAutoRetries: 1
+  OkToRetryOnAllOperations: true
+  ReadTimeout: 120000
+  ConnectTimeout: 1000
+
+info:
+  desc: ${spring.application.name}
+
+management:
+  security:
+    enabled: false
+
+endpoints:
+  jolokia:
+    enabled: true
+  jmx:
+    enabled: true
+
+redis:
+  host: ${ENV}.redis.service.com
+  port: 6379
+
+elasticsearch:
+  hosts: http://t2.service.com:9200,http://t3.service.com:9200,http://t4.service.com:9200
+  cluster: elasticsearch
